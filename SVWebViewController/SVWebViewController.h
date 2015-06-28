@@ -6,6 +6,14 @@
 //
 //  https://github.com/samvermette/SVWebViewController
 
+#import <UIKit/UIKit.h>
+
+//! Project version number for SVWebViewController.
+FOUNDATION_EXPORT double SVWebViewControllerVersionNumber;
+
+//! Project version string for SVWebViewController.
+FOUNDATION_EXPORT const unsigned char SVWebViewControllerVersionString[];
+
 @interface SVWebViewController : UIViewController
 
 - (instancetype)initWithAddress:(NSString*)urlString;

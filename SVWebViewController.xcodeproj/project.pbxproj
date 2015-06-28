@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1718E4191B400CFC002FDA40 /* SVWebViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1718E4171B400CFC002FDA40 /* SVWebViewController.strings */; };
+		17FEB6CE1B400C6300E04564 /* SVWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB6CD1B400C6300E04564 /* SVWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17FEB7201B400CAD00E04564 /* SVModalWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB6FD1B400CAD00E04564 /* SVModalWebViewController.h */; };
+		17FEB7211B400CAD00E04564 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB6FE1B400CAD00E04564 /* SVModalWebViewController.m */; };
+		17FEB7221B400CAD00E04564 /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB6FF1B400CAD00E04564 /* SVWebViewController.bundle */; };
+		17FEB7241B400CAD00E04564 /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB7011B400CAD00E04564 /* SVWebViewController.m */; };
+		17FEB7251B400CAD00E04564 /* SVWebViewControllerActivityChrome-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB7041B400CAD00E04564 /* SVWebViewControllerActivityChrome-iPad.png */; };
+		17FEB7261B400CAD00E04564 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB7051B400CAD00E04564 /* SVWebViewControllerActivityChrome-iPad@2x.png */; };
+		17FEB7271B400CAD00E04564 /* SVWebViewControllerActivityChrome.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB7061B400CAD00E04564 /* SVWebViewControllerActivityChrome.h */; };
+		17FEB7281B400CAD00E04564 /* SVWebViewControllerActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB7071B400CAD00E04564 /* SVWebViewControllerActivityChrome.m */; };
+		17FEB7291B400CAD00E04564 /* SVWebViewControllerActivityChrome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB7081B400CAD00E04564 /* SVWebViewControllerActivityChrome@2x.png */; };
+		17FEB72A1B400CAD00E04564 /* SVWebViewControllerActivitySafari-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB70A1B400CAD00E04564 /* SVWebViewControllerActivitySafari-iPad.png */; };
+		17FEB72B1B400CAD00E04564 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB70B1B400CAD00E04564 /* SVWebViewControllerActivitySafari-iPad@2x.png */; };
+		17FEB72C1B400CAD00E04564 /* SVWebViewControllerActivitySafari.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB70C1B400CAD00E04564 /* SVWebViewControllerActivitySafari.h */; };
+		17FEB72D1B400CAD00E04564 /* SVWebViewControllerActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB70D1B400CAD00E04564 /* SVWebViewControllerActivitySafari.m */; };
+		17FEB72E1B400CAD00E04564 /* SVWebViewControllerActivitySafari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB70E1B400CAD00E04564 /* SVWebViewControllerActivitySafari@2x.png */; };
+		17FEB72F1B400CAD00E04564 /* SVWebViewControllerActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB70F1B400CAD00E04564 /* SVWebViewControllerActivity.h */; };
+		17FEB7301B400CAD00E04564 /* SVWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB7101B400CAD00E04564 /* SVWebViewControllerActivity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1718E4181B400CFC002FDA40 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		1718E41A1B400D0C002FDA40 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		1718E41C1B400D15002FDA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		1718E41D1B400D19002FDA40 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		177090AB1B400D2E00ED6490 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		177090AC1B400D3000ED6490 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		177090AD1B400D3200ED6490 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		177090AE1B400D3300ED6490 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		177090AF1B400D3400ED6490 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		177090B01B400D3600ED6490 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		17FEB6C81B400C6300E04564 /* SVWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FEB6CC1B400C6300E04564 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17FEB6CD1B400C6300E04564 /* SVWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWebViewController.h; sourceTree = "<group>"; };
+		17FEB6D91B400C6300E04564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17FEB6DA1B400C6300E04564 /* SVWebViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerTests.m; sourceTree = "<group>"; };
+		17FEB6F61B400CAD00E04564 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17FEB6FD1B400CAD00E04564 /* SVModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVModalWebViewController.h; sourceTree = "<group>"; };
+		17FEB6FE1B400CAD00E04564 /* SVModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVModalWebViewController.m; sourceTree = "<group>"; };
+		17FEB6FF1B400CAD00E04564 /* SVWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVWebViewController.bundle; sourceTree = "<group>"; };
+		17FEB7001B400CAD00E04564 /* SVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewController.h; sourceTree = "<group>"; };
+		17FEB7011B400CAD00E04564 /* SVWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewController.m; sourceTree = "<group>"; };
+		17FEB7041B400CAD00E04564 /* SVWebViewControllerActivityChrome-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad.png"; sourceTree = "<group>"; };
+		17FEB7051B400CAD00E04564 /* SVWebViewControllerActivityChrome-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad@2x.png"; sourceTree = "<group>"; };
+		17FEB7061B400CAD00E04564 /* SVWebViewControllerActivityChrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivityChrome.h; sourceTree = "<group>"; };
+		17FEB7071B400CAD00E04564 /* SVWebViewControllerActivityChrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivityChrome.m; sourceTree = "<group>"; };
+		17FEB7081B400CAD00E04564 /* SVWebViewControllerActivityChrome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome@2x.png"; sourceTree = "<group>"; };
+		17FEB70A1B400CAD00E04564 /* SVWebViewControllerActivitySafari-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad.png"; sourceTree = "<group>"; };
+		17FEB70B1B400CAD00E04564 /* SVWebViewControllerActivitySafari-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad@2x.png"; sourceTree = "<group>"; };
+		17FEB70C1B400CAD00E04564 /* SVWebViewControllerActivitySafari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivitySafari.h; sourceTree = "<group>"; };
+		17FEB70D1B400CAD00E04564 /* SVWebViewControllerActivitySafari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivitySafari.m; sourceTree = "<group>"; };
+		17FEB70E1B400CAD00E04564 /* SVWebViewControllerActivitySafari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari@2x.png"; sourceTree = "<group>"; };
+		17FEB70F1B400CAD00E04564 /* SVWebViewControllerActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivity.h; sourceTree = "<group>"; };
+		17FEB7101B400CAD00E04564 /* SVWebViewControllerActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17FEB6C41B400C6300E04564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17FEB6BE1B400C6300E04564 = {
+			isa = PBXGroup;
+			children = (
+				17FEB6CA1B400C6300E04564 /* SVWebViewController */,
+				17FEB6D71B400C6300E04564 /* SVWebViewControllerTests */,
+				17FEB6C91B400C6300E04564 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17FEB6C91B400C6300E04564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17FEB6C81B400C6300E04564 /* SVWebViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17FEB6CA1B400C6300E04564 /* SVWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17FEB6F61B400CAD00E04564 /* Info.plist */,
+				17FEB6FD1B400CAD00E04564 /* SVModalWebViewController.h */,
+				17FEB6FE1B400CAD00E04564 /* SVModalWebViewController.m */,
+				17FEB6FF1B400CAD00E04564 /* SVWebViewController.bundle */,
+				17FEB7001B400CAD00E04564 /* SVWebViewController.h */,
+				17FEB7011B400CAD00E04564 /* SVWebViewController.m */,
+				17FEB7021B400CAD00E04564 /* UIActivities */,
+				17FEB6CD1B400C6300E04564 /* SVWebViewController.h */,
+				1718E4171B400CFC002FDA40 /* SVWebViewController.strings */,
+				17FEB6CB1B400C6300E04564 /* Supporting Files */,
+			);
+			path = SVWebViewController;
+			sourceTree = "<group>";
+		};
+		17FEB6CB1B400C6300E04564 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17FEB6CC1B400C6300E04564 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17FEB6D71B400C6300E04564 /* SVWebViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				17FEB6DA1B400C6300E04564 /* SVWebViewControllerTests.m */,
+				17FEB6D81B400C6300E04564 /* Supporting Files */,
+			);
+			path = SVWebViewControllerTests;
+			sourceTree = "<group>";
+		};
+		17FEB6D81B400C6300E04564 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17FEB6D91B400C6300E04564 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17FEB7021B400CAD00E04564 /* UIActivities */ = {
+			isa = PBXGroup;
+			children = (
+				17FEB7031B400CAD00E04564 /* Chrome */,
+				17FEB7091B400CAD00E04564 /* Safari */,
+				17FEB70F1B400CAD00E04564 /* SVWebViewControllerActivity.h */,
+				17FEB7101B400CAD00E04564 /* SVWebViewControllerActivity.m */,
+			);
+			path = UIActivities;
+			sourceTree = "<group>";
+		};
+		17FEB7031B400CAD00E04564 /* Chrome */ = {
+			isa = PBXGroup;
+			children = (
+				17FEB7041B400CAD00E04564 /* SVWebViewControllerActivityChrome-iPad.png */,
+				17FEB7051B400CAD00E04564 /* SVWebViewControllerActivityChrome-iPad@2x.png */,
+				17FEB7061B400CAD00E04564 /* SVWebViewControllerActivityChrome.h */,
+				17FEB7071B400CAD00E04564 /* SVWebViewControllerActivityChrome.m */,
+				17FEB7081B400CAD00E04564 /* SVWebViewControllerActivityChrome@2x.png */,
+			);
+			path = Chrome;
+			sourceTree = "<group>";
+		};
+		17FEB7091B400CAD00E04564 /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				17FEB70A1B400CAD00E04564 /* SVWebViewControllerActivitySafari-iPad.png */,
+				17FEB70B1B400CAD00E04564 /* SVWebViewControllerActivitySafari-iPad@2x.png */,
+				17FEB70C1B400CAD00E04564 /* SVWebViewControllerActivitySafari.h */,
+				17FEB70D1B400CAD00E04564 /* SVWebViewControllerActivitySafari.m */,
+				17FEB70E1B400CAD00E04564 /* SVWebViewControllerActivitySafari@2x.png */,
+			);
+			path = Safari;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17FEB6C51B400C6300E04564 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FEB72C1B400CAD00E04564 /* SVWebViewControllerActivitySafari.h in Headers */,
+				17FEB6CE1B400C6300E04564 /* SVWebViewController.h in Headers */,
+				17FEB72F1B400CAD00E04564 /* SVWebViewControllerActivity.h in Headers */,
+				17FEB7271B400CAD00E04564 /* SVWebViewControllerActivityChrome.h in Headers */,
+				17FEB7201B400CAD00E04564 /* SVModalWebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17FEB6C71B400C6300E04564 /* SVWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17FEB6DE1B400C6300E04564 /* Build configuration list for PBXNativeTarget "SVWebViewController" */;
+			buildPhases = (
+				17FEB6C31B400C6300E04564 /* Sources */,
+				17FEB6C41B400C6300E04564 /* Frameworks */,
+				17FEB6C51B400C6300E04564 /* Headers */,
+				17FEB6C61B400C6300E04564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVWebViewController;
+			productName = SVWebViewController;
+			productReference = 17FEB6C81B400C6300E04564 /* SVWebViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17FEB6BF1B400C6300E04564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Transit App";
+				TargetAttributes = {
+					17FEB6C71B400C6300E04564 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 17FEB6C21B400C6300E04564 /* Build configuration list for PBXProject "SVWebViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				da,
+				de,
+				"es-ES",
+				es,
+				fr,
+				ja,
+				pt,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 17FEB6BE1B400C6300E04564;
+			productRefGroup = 17FEB6C91B400C6300E04564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17FEB6C71B400C6300E04564 /* SVWebViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17FEB6C61B400C6300E04564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FEB7291B400CAD00E04564 /* SVWebViewControllerActivityChrome@2x.png in Resources */,
+				17FEB7251B400CAD00E04564 /* SVWebViewControllerActivityChrome-iPad.png in Resources */,
+				17FEB7221B400CAD00E04564 /* SVWebViewController.bundle in Resources */,
+				17FEB72A1B400CAD00E04564 /* SVWebViewControllerActivitySafari-iPad.png in Resources */,
+				17FEB7261B400CAD00E04564 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */,
+				1718E4191B400CFC002FDA40 /* SVWebViewController.strings in Resources */,
+				17FEB72E1B400CAD00E04564 /* SVWebViewControllerActivitySafari@2x.png in Resources */,
+				17FEB72B1B400CAD00E04564 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17FEB6C31B400C6300E04564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FEB7301B400CAD00E04564 /* SVWebViewControllerActivity.m in Sources */,
+				17FEB7241B400CAD00E04564 /* SVWebViewController.m in Sources */,
+				17FEB7211B400CAD00E04564 /* SVModalWebViewController.m in Sources */,
+				17FEB7281B400CAD00E04564 /* SVWebViewControllerActivityChrome.m in Sources */,
+				17FEB72D1B400CAD00E04564 /* SVWebViewControllerActivitySafari.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1718E4171B400CFC002FDA40 /* SVWebViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1718E4181B400CFC002FDA40 /* pt */,
+				1718E41A1B400D0C002FDA40 /* zh-Hant */,
+				1718E41C1B400D15002FDA40 /* en */,
+				1718E41D1B400D19002FDA40 /* de */,
+				177090AB1B400D2E00ED6490 /* da */,
+				177090AC1B400D3000ED6490 /* es-ES */,
+				177090AD1B400D3200ED6490 /* es */,
+				177090AE1B400D3300ED6490 /* fr */,
+				177090AF1B400D3400ED6490 /* ja */,
+				177090B01B400D3600ED6490 /* zh-Hans */,
+			);
+			name = SVWebViewController.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17FEB6DC1B400C6300E04564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17FEB6DD1B400C6300E04564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17FEB6DF1B400C6300E04564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SVWebViewController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		17FEB6E01B400C6300E04564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SVWebViewController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17FEB6C21B400C6300E04564 /* Build configuration list for PBXProject "SVWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FEB6DC1B400C6300E04564 /* Debug */,
+				17FEB6DD1B400C6300E04564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17FEB6DE1B400C6300E04564 /* Build configuration list for PBXNativeTarget "SVWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FEB6DF1B400C6300E04564 /* Debug */,
+				17FEB6E01B400C6300E04564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17FEB6BF1B400C6300E04564 /* Project object */;
+}
