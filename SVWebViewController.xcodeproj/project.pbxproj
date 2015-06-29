@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1718E4191B400CFC002FDA40 /* SVWebViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1718E4171B400CFC002FDA40 /* SVWebViewController.strings */; };
-		17793EF61B413A0800F43E4D /* SVWebViewController.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 17793EF51B413A0600F43E4D /* SVWebViewController.modulemap */; };
 		17FEB7201B400CAD00E04564 /* SVModalWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB6FD1B400CAD00E04564 /* SVModalWebViewController.h */; };
 		17FEB7211B400CAD00E04564 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB6FE1B400CAD00E04564 /* SVModalWebViewController.m */; };
 		17FEB7221B400CAD00E04564 /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB6FF1B400CAD00E04564 /* SVWebViewController.bundle */; };
@@ -271,7 +270,6 @@
 				17FEB7301B400CAD00E04564 /* SVWebViewControllerActivity.m in Sources */,
 				17FEB7241B400CAD00E04564 /* SVWebViewController.m in Sources */,
 				17FEB7211B400CAD00E04564 /* SVModalWebViewController.m in Sources */,
-				17793EF61B413A0800F43E4D /* SVWebViewController.modulemap in Sources */,
 				17FEB7281B400CAD00E04564 /* SVWebViewControllerActivityChrome.m in Sources */,
 				17FEB72D1B400CAD00E04564 /* SVWebViewControllerActivitySafari.m in Sources */,
 			);
