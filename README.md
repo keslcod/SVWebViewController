@@ -1,5 +1,7 @@
 # SVWebViewController
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 SVWebViewController is a simple inline browser for your iOS 7 app.
 
 ![SVWebViewController](http://cl.ly/SQVO/download/GitHub.png)
@@ -18,6 +20,14 @@ SVWebViewController is a simple inline browser for your iOS 7 app.
 ### CocoaPods
 
 I'm not a big fan of CocoaPods, so tend to not keep it updated. If you really want to use SVWebViewController with CocoaPods, I suggest you use `pod 'SVWebViewController', :head` to pull from the `master` branch directly. I'm usually careful about what I push there and is the version I use myself in all my projects.
+
+### Carthage
+
+Add this line to your `Cartfile`:
+
+```
+github "keslcod/SVWebViewController"
+```
 
 ### Manually
 
