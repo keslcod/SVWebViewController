@@ -14,8 +14,8 @@ FOUNDATION_EXPORT double SVWebViewControllerVersionNumber;
 //! Project version string for SVWebViewController.
 FOUNDATION_EXPORT const unsigned char SVWebViewControllerVersionString[];
 
-#import "SVWebViewController.h"
-#import "SVModalWebViewController.h"
-#import "SVWebViewControllerActivity.h"
-#import "SVWebViewControllerActivityChrome.h"
-#import "SVWebViewControllerActivitySafari.h"
+#import <SVWebViewController/SVWebViewController.h>
+#import <SVWebViewController/SVModalWebViewController.h>
+#import <SVWebViewController/SVWebViewControllerActivity.h>
+#import <SVWebViewController/SVWebViewControllerActivityChrome.h>
+#import <SVWebViewController/SVWebViewControllerActivitySafari.h>
