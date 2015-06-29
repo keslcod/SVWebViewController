@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1718E4191B400CFC002FDA40 /* SVWebViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1718E4171B400CFC002FDA40 /* SVWebViewController.strings */; };
-		17FEB6CE1B400C6300E04564 /* SVWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB6CD1B400C6300E04564 /* SVWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17FEB7201B400CAD00E04564 /* SVModalWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB6FD1B400CAD00E04564 /* SVModalWebViewController.h */; };
 		17FEB7211B400CAD00E04564 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB6FE1B400CAD00E04564 /* SVModalWebViewController.m */; };
 		17FEB7221B400CAD00E04564 /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB6FF1B400CAD00E04564 /* SVWebViewController.bundle */; };
@@ -40,7 +39,6 @@
 		177090B01B400D3600ED6490 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
 		17FEB6C81B400C6300E04564 /* SVWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FEB6CC1B400C6300E04564 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17FEB6CD1B400C6300E04564 /* SVWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWebViewController.h; sourceTree = "<group>"; };
 		17FEB6D91B400C6300E04564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17FEB6DA1B400C6300E04564 /* SVWebViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerTests.m; sourceTree = "<group>"; };
 		17FEB6F61B400CAD00E04564 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,15 +93,14 @@
 			isa = PBXGroup;
 			children = (
 				17FEB6F61B400CAD00E04564 /* Info.plist */,
+				17FEB6CB1B400C6300E04564 /* Supporting Files */,
 				17FEB6FD1B400CAD00E04564 /* SVModalWebViewController.h */,
 				17FEB6FE1B400CAD00E04564 /* SVModalWebViewController.m */,
 				17FEB6FF1B400CAD00E04564 /* SVWebViewController.bundle */,
 				17FEB7001B400CAD00E04564 /* SVWebViewController.h */,
 				17FEB7011B400CAD00E04564 /* SVWebViewController.m */,
-				17FEB7021B400CAD00E04564 /* UIActivities */,
-				17FEB6CD1B400C6300E04564 /* SVWebViewController.h */,
 				1718E4171B400CFC002FDA40 /* SVWebViewController.strings */,
-				17FEB6CB1B400C6300E04564 /* Supporting Files */,
+				17FEB7021B400CAD00E04564 /* UIActivities */,
 			);
 			path = SVWebViewController;
 			sourceTree = "<group>";
@@ -176,7 +173,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				17FEB72C1B400CAD00E04564 /* SVWebViewControllerActivitySafari.h in Headers */,
-				17FEB6CE1B400C6300E04564 /* SVWebViewController.h in Headers */,
 				17FEB72F1B400CAD00E04564 /* SVWebViewControllerActivity.h in Headers */,
 				17FEB7271B400CAD00E04564 /* SVWebViewControllerActivityChrome.h in Headers */,
 				17FEB7201B400CAD00E04564 /* SVModalWebViewController.h in Headers */,

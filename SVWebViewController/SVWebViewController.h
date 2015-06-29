@@ -6,13 +6,18 @@
 //
 //  https://github.com/samvermette/SVWebViewController
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 //! Project version number for SVWebViewController.
 FOUNDATION_EXPORT double SVWebViewControllerVersionNumber;
 
 //! Project version string for SVWebViewController.
 FOUNDATION_EXPORT const unsigned char SVWebViewControllerVersionString[];
+
+#import "SVModalWebViewController.h"
+#import "SVWebViewControllerActivity.h"
+#import "SVWebViewControllerActivityChrome.h"
+#import "SVWebViewControllerActivitySafari.h"
 
 @interface SVWebViewController : UIViewController
 
