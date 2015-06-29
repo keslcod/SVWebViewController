@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		1718E4191B400CFC002FDA40 /* SVWebViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1718E4171B400CFC002FDA40 /* SVWebViewController.strings */; };
-		17FEB7201B400CAD00E04564 /* SVModalWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB6FD1B400CAD00E04564 /* SVModalWebViewController.h */; };
+		1759DACB1B414A1A009C50ED /* SVWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB7001B400CAD00E04564 /* SVWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1759DACC1B414A1A009C50ED /* SVUmbrellaHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 17793EF71B41469500F43E4D /* SVUmbrellaHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17FEB7201B400CAD00E04564 /* SVModalWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB6FD1B400CAD00E04564 /* SVModalWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17FEB7211B400CAD00E04564 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB6FE1B400CAD00E04564 /* SVModalWebViewController.m */; };
 		17FEB7221B400CAD00E04564 /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB6FF1B400CAD00E04564 /* SVWebViewController.bundle */; };
 		17FEB7241B400CAD00E04564 /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB7011B400CAD00E04564 /* SVWebViewController.m */; };
 		17FEB7251B400CAD00E04564 /* SVWebViewControllerActivityChrome-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB7041B400CAD00E04564 /* SVWebViewControllerActivityChrome-iPad.png */; };
 		17FEB7261B400CAD00E04564 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB7051B400CAD00E04564 /* SVWebViewControllerActivityChrome-iPad@2x.png */; };
-		17FEB7271B400CAD00E04564 /* SVWebViewControllerActivityChrome.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB7061B400CAD00E04564 /* SVWebViewControllerActivityChrome.h */; };
+		17FEB7271B400CAD00E04564 /* SVWebViewControllerActivityChrome.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB7061B400CAD00E04564 /* SVWebViewControllerActivityChrome.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17FEB7281B400CAD00E04564 /* SVWebViewControllerActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB7071B400CAD00E04564 /* SVWebViewControllerActivityChrome.m */; };
 		17FEB7291B400CAD00E04564 /* SVWebViewControllerActivityChrome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB7081B400CAD00E04564 /* SVWebViewControllerActivityChrome@2x.png */; };
 		17FEB72A1B400CAD00E04564 /* SVWebViewControllerActivitySafari-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB70A1B400CAD00E04564 /* SVWebViewControllerActivitySafari-iPad.png */; };
 		17FEB72B1B400CAD00E04564 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB70B1B400CAD00E04564 /* SVWebViewControllerActivitySafari-iPad@2x.png */; };
-		17FEB72C1B400CAD00E04564 /* SVWebViewControllerActivitySafari.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB70C1B400CAD00E04564 /* SVWebViewControllerActivitySafari.h */; };
+		17FEB72C1B400CAD00E04564 /* SVWebViewControllerActivitySafari.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB70C1B400CAD00E04564 /* SVWebViewControllerActivitySafari.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17FEB72D1B400CAD00E04564 /* SVWebViewControllerActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB70D1B400CAD00E04564 /* SVWebViewControllerActivitySafari.m */; };
 		17FEB72E1B400CAD00E04564 /* SVWebViewControllerActivitySafari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB70E1B400CAD00E04564 /* SVWebViewControllerActivitySafari@2x.png */; };
-		17FEB72F1B400CAD00E04564 /* SVWebViewControllerActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB70F1B400CAD00E04564 /* SVWebViewControllerActivity.h */; };
+		17FEB72F1B400CAD00E04564 /* SVWebViewControllerActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB70F1B400CAD00E04564 /* SVWebViewControllerActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17FEB7301B400CAD00E04564 /* SVWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB7101B400CAD00E04564 /* SVWebViewControllerActivity.m */; };
 /* End PBXBuildFile section */
 
@@ -176,7 +178,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1759DACC1B414A1A009C50ED /* SVUmbrellaHeader.h in Headers */,
 				17FEB72C1B400CAD00E04564 /* SVWebViewControllerActivitySafari.h in Headers */,
+				1759DACB1B414A1A009C50ED /* SVWebViewController.h in Headers */,
 				17FEB72F1B400CAD00E04564 /* SVWebViewControllerActivity.h in Headers */,
 				17FEB7271B400CAD00E04564 /* SVWebViewControllerActivityChrome.h in Headers */,
 				17FEB7201B400CAD00E04564 /* SVModalWebViewController.h in Headers */,
