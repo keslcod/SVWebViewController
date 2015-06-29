@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Transit App. All rights reserved.
 //
 
+@import Foundation;
+
 //! Project version number for SVWebViewController.
 FOUNDATION_EXPORT double SVWebViewControllerVersionNumber;
 
