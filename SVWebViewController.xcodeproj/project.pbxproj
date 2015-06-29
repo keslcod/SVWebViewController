@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1718E4191B400CFC002FDA40 /* SVWebViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1718E4171B400CFC002FDA40 /* SVWebViewController.strings */; };
+		17793EF61B413A0800F43E4D /* SVWebViewController.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 17793EF51B413A0600F43E4D /* SVWebViewController.modulemap */; };
 		17FEB7201B400CAD00E04564 /* SVModalWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FEB6FD1B400CAD00E04564 /* SVModalWebViewController.h */; };
 		17FEB7211B400CAD00E04564 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FEB6FE1B400CAD00E04564 /* SVModalWebViewController.m */; };
 		17FEB7221B400CAD00E04564 /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 17FEB6FF1B400CAD00E04564 /* SVWebViewController.bundle */; };
@@ -37,6 +38,8 @@
 		177090AE1B400D3300ED6490 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
 		177090AF1B400D3400ED6490 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
 		177090B01B400D3600ED6490 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		17793EF51B413A0600F43E4D /* SVWebViewController.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = SVWebViewController.modulemap; sourceTree = "<group>"; };
+		17793EF71B41469500F43E4D /* SVUmbrellaHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVUmbrellaHeader.h; sourceTree = "<group>"; };
 		17FEB6C81B400C6300E04564 /* SVWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FEB6CC1B400C6300E04564 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17FEB6D91B400C6300E04564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 				17FEB6FE1B400CAD00E04564 /* SVModalWebViewController.m */,
 				17FEB6FF1B400CAD00E04564 /* SVWebViewController.bundle */,
 				17FEB7001B400CAD00E04564 /* SVWebViewController.h */,
+				17793EF51B413A0600F43E4D /* SVWebViewController.modulemap */,
+				17793EF71B41469500F43E4D /* SVUmbrellaHeader.h */,
 				17FEB7011B400CAD00E04564 /* SVWebViewController.m */,
 				1718E4171B400CFC002FDA40 /* SVWebViewController.strings */,
 				17FEB7021B400CAD00E04564 /* UIActivities */,
@@ -266,6 +271,7 @@
 				17FEB7301B400CAD00E04564 /* SVWebViewControllerActivity.m in Sources */,
 				17FEB7241B400CAD00E04564 /* SVWebViewController.m in Sources */,
 				17FEB7211B400CAD00E04564 /* SVModalWebViewController.m in Sources */,
+				17793EF61B413A0800F43E4D /* SVWebViewController.modulemap in Sources */,
 				17FEB7281B400CAD00E04564 /* SVWebViewControllerActivityChrome.m in Sources */,
 				17FEB72D1B400CAD00E04564 /* SVWebViewControllerActivitySafari.m in Sources */,
 			);
@@ -332,6 +338,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MODULEMAP_FILE = SVWebViewController/SVWebViewController.modulemap;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -373,6 +380,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MODULEMAP_FILE = SVWebViewController/SVWebViewController.modulemap;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -394,6 +402,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = "-Wincomplete-umbrella";
 			};
 			name = Debug;
 		};
@@ -409,6 +418,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = "-Wincomplete-umbrella";
 			};
 			name = Release;
 		};
